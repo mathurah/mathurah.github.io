@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+main,
+nav {
+  padding: 20px 30px;
+}
+main {
+  clear: both;
+}
+.highlight {
+  color: #bf6d50;
+}
+
+
+header {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav a {
+  padding: 20px;
+}
+
+/* HOME PAGE STYLES
+-----------------------------------------*/ 
+.banner-image{
+  align-content: center;
+  width: 100%;
+  display: block;
+}
+
+/* ABOUT STYLES
+-----------------------------------------*/
+.profile-img {
+  float: left;
+  margin-right: 20px;
+  width: 50%;
+}
+blockquote {
+  clear: both;
+  padding: 5px 150px 0;
+  text-align: center;
+}
+blockquote p {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+/* CONTACT STYLES
+-----------------------------------------*/
+.contact {
+  background: url(../images/background-8.jpg) no-repeat 50%;
+  background-size: cover;
+}
+.contact main {
+  background: rgba(255, 255, 255, 0.7);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact main h1 {
+  text-transform: none;
+}
+
+/* form styles */
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+} 
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
+
+
+/* FOOTER STYLES
+-----------------------------------------*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, 
+.page-wrap:after {
+  height: 55px; /* however tall you want the footer to be */
+}
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1px;
+  text-transform: lowercase;
+}
+
+.info {
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
