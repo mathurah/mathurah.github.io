@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 2.5em;
+    margin: 10px;
+  
+  }
+  
+  body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
+  margin: 3rem auto;
+}
+
+.about-me {
+    padding-top: 2rem;
+}
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .profile-pic {
+    float: left;
+   margin-left: 20px;
+   width: 20%;
+   height: 20%;
+   border-radius: 100%;
+   margin-right: 20px;
+}
+
+
+#container {
+	width: 80%;
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 2rem 0;
+}
+
+h1, h2, h3 {
+	color: #333;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: .5rem;
+}
+
+.global-title {
+	font-size: 3rem;
+	color: #222;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+h2, h3 {
+	margin: 2rem 0 1rem;
+}
+
+p, li {
+	font-size: 1rem;
+	line-height: 150%;
+	color: #444;
+	margin: 1.25rem 0;
+}
+
+li {
+	margin: .5rem 0;
+}
+
+a {
+	color:#4B0082;
+}
+
+a:hover, a:active {
+	color: #9370DB;
+
+}
+
+li {
+	margin-left: 2.5rem;
+}
+
+nav {
+	margin-bottom: 3rem;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+nav a {
+	margin-right: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.title-image {
+    width: 800px;
+}
+
+p {
+    margin: 1rem;
+}
