@@ -1,148 +1,131 @@
-html,
-body {
-  height: 100%;
-}
-body {
-  padding: 0;
-  margin: 0;
-}
-
-header,
-main,
-nav {
-  padding: 20px 30px;
-}
-main {
-  clear: both;
-}
-.highlight {
-  color: #bf6d50;
-}
-
-
-header {
-  float: left;
-}
-nav {
-  float: right;
-}
-nav a {
-  padding: 20px;
-}
-
-/* HOME PAGE STYLES
------------------------------------------*/ 
 .banner-image{
   align-content: center;
   width: 100%;
   display: block;
-}
 
-/* ABOUT STYLES
------------------------------------------*/
-.profile-img {
-  float: left;
-  margin-right: 20px;
-  width: 50%;
-}
-blockquote {
-  clear: both;
-  padding: 5px 150px 0;
-  text-align: center;
-}
-blockquote p {
-  font-family: "Pacifico", cursive;
-  font-size: 30px;
-}
-
-/* CONTACT STYLES
------------------------------------------*/
-.contact {
-  background: url(../images/background-8.jpg) no-repeat 50%;
-  background-size: cover;
-}
-.contact main {
-  background: rgba(255, 255, 255, 0.7);
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.contact main h1 {
-  text-transform: none;
-}
-
-/* form styles */
-form {
-  width: 400px;
-}
-input,
-textarea {
-  border: 1px solid #BF6D50;
-  width: 400px;
-  margin-bottom: 10px;
-}
-input {
-  height: 20px;
-} 
-textarea {
-  height: 100px;
-}
-button {
-  background: #BF6D50;
-  border: none;
-  padding: 10px 40px;
-  font-size: 16px;
-}
-
-
-/* FOOTER STYLES
------------------------------------------*/
-/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -55px; /* must be the same height as footer */
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-footer, 
-.page-wrap:after {
-  height: 55px; /* however tall you want the footer to be */
-}
-footer {
-  background: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 1px;
-  text-transform: lowercase;
-}
-
-.info {
-    padding: 50px;
-    padding-bottom: 10px;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+html {
+    box-sizing: border-box;
   }
-
-  /* Clear floats after image containers */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
+  
+  h1 {
+      font-family: 'Open-Sans', sans-serif;
+      font-size: 2.5em;
+      margin: 10px;
+    
     }
-}
-
-  .column2 {
-    float: left;
-    width: 50%;
-    padding: 5px;
+    
+    body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    margin: 3rem auto;
   }
+  
+  .about-me {
+      padding-top: 2rem;
+  }
+  nav li {
+      display: inline-block;
+      margin-right: 1em;
+    }
+  
+    .profile-pic {
+      float: left;
+     margin-left: 20px;
+     width: 20%;
+     height: 20%;
+     border-radius: 100%;
+     margin-right: 20px;
+  }
+  
+  
+  #container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  .global-title {
+    font-size: 3rem;
+    color: #222;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.3rem;
+  }
+  
+  h2, h3 {
+    margin: 2rem 0 1rem;
+  }
+  
+  p, li {
+    font-size: 1rem;
+    line-height: 150%;
+    color: #444;
+    margin: 1.25rem 0;
+  }
+  
+  li {
+    margin: .5rem 0;
+  }
+  
+  a {
+    color:#4B0082;
+  }
+  
+  a:hover, a:active {
+    color: #9370DB;
+  
+  }
+  
+  li {
+    margin-left: 2.5rem;
+  }
+  
+  nav {
+    margin-bottom: 3rem;
+  }
+  
+  nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  nav a {
+    margin-right: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .title-image {
+      width: 800px;
+  }
+  
+  p {
+      margin: 1rem;
+  }
+  
+  .rows {
+    float: left; 
+    margin: 10px;
+    padding-right: 20px;  
+    width: 30%;
+  }
+      
+      
