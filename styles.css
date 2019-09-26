@@ -128,3 +128,21 @@ p {
 .projects:hover {
 	opacity:0.5;
 }
+
+.button {
+	background: linear-gradient(180deg,#161616 0,#144539);
+	padding: 20px;
+	width: 200px;
+	height: 100px;	
+	text-align: center;
+	border-radius: 30%;
+	cursor: pointer;
+
+}
+
+.b {
+	color: white; 
+}
+.button:hover {
+	background-color: #9370DB;
+}
