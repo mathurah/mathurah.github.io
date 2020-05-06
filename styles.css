@@ -78,14 +78,17 @@ li {
 }
 
 a {
-	color:#4B0082;
-}
-
-a:hover, a:active {
-	color: #9370DB;
-
-}
-
+	color: black;
+	transition: all linear .2s;
+	background: #F2D9FA !important;
+	text-decoration: none !important;
+  }
+  
+  a:hover {
+	  background: #E9BFF7 !important;
+	text-decoration: none;
+  
+  }
 li {
 	margin-left: 2.5rem;
 }
@@ -100,8 +103,14 @@ nav li {
 	margin: 0;
 }
 
-nav a {
-	margin-right: 1rem;
+.nav {
+    width: 100%; 
+	margin: 1rem; 
+	display: grid;
+    grid-template-columns: repeat(5, auto); 
+    align-items: center; 
+	justify-items: center; 
+	padding: 10px; 
 }
 
 img {
@@ -125,24 +134,129 @@ p {
 	width: 30%;
 }
 
-.projects:hover {
-	opacity:0.5;
-}
 
-.button {
+/* button {
 	background: linear-gradient(180deg,#161616 0,#144539);
 	padding: 20px;
 	width: 200px;
 	height: 100px;	
 	text-align: center;
 	border-radius: 30%;
-	cursor: pointer;
 
-}
+} */
 
 .b {
 	color: white; 
 }
 .button:hover {
 	background-color: #9370DB;
+}
+
+.projects {
+	width: 100%;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.projects img {
+	margin-left: 30px; 
+	margin-top: 30px; 
+	margin-right: 30px; 
+	width: 80%;
+}
+
+
+.projects h3 {
+	font-family: 'Lora', serif;
+	font-weight: bold; 
+	font-size: 30px !important; 
+	margin-top: 50px; 
+	margin-right: 30px; 
+	margin-left: -30px; 
+	line-height: 40px; 
+
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+button {
+	background: #E1B2F1;
+	border-radius: 10px;
+	width: 80%;
+	height: 50px; 
+	padding: 10px; 
+	cursor: pointer;
+	transition: all linear .2s;
+
+
+}
+
+button p {
+
+		font-size: 1rem!important;
+		line-height: 0;
+		color: black; 
+		font-weight: bold;
+}
+
+button:hover{
+	background: #C46FE2;
+	color: white; 
+
+}
+
+.tags {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	margin-left: -30px; 
+}
+
+.design {
+	background: #F8EED6; 
+	padding-left: 5px;
+	padding-right: 5px; 
+	border-radius: 5px;
+}
+
+.startup {
+	background: #D3E6E2; 
+	padding-left: 5px;
+	padding-right: 5px; 
+	border-radius: 5px;
+}
+
+.projects-nav {
+	width: 100%x;
+	height: 60px; 
+	background-color: white; 
+	display: block;
+}
+
+.container-case-study {
+	width: 80%;
+	/* max-width: 800px; */
+	margin: 2rem auto;
+	padding: 2rem 0;
+}
+
+.project-header {
+	width: 100%; 
+	
+}
+
+.BCM {
+	background-color: #144545;
+	padding: 10px;
+	color: white !important; 
+	
+}
+
+.BCM h1 {
+	color: white !important; 
 }
