@@ -1,0 +1,174 @@
+b {
+	color: white; 
+}
+.button:hover {
+	background-color: #9370DB;
+}
+
+.projects {
+	margin-top: 50px; 
+	width: 100%;
+	background: rgb(88, 87, 87);
+	border-radius: 20px;
+	border: solid 1px #EFEFEF; 
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+
+  /* Transition to showing the bigger shadow on hover */
+  .projects:hover {
+	box-shadow: 0 5px 15px #E6C6FF;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+	opacity: 1;
+  }
+
+.projects img {
+	margin-left: 30px; 
+	margin-top: 30px; 
+	margin-right: 30px; 
+	width: 80%;
+}
+
+
+.projects h3 {
+	font-family: 'Lora', serif;
+	font-weight: bold; 
+	font-size: 30px !important; 
+	margin-top: 50px; 
+	margin-right: 30px; 
+	margin-left: -30px; 
+	line-height: 40px; 
+
+}
+
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+button {
+	background: #E1B2F1;
+	border-radius: 10px;
+	width: 80%;
+	height: 50px; 
+	padding: 10px; 
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: all linear .2s;
+
+
+}
+
+button p {
+
+		font-size: 1rem!important;
+		line-height: 0;
+		color: black; 
+		font-weight: bold;
+}
+
+button:hover{
+	background: #C46FE2;
+	color: white; 
+
+}
+
+.tags {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-gap: 20px !important; 
+	margin-left: -30px; 
+	padding: 10px; 
+	/* padding-bottom: 20px; */
+	
+}
+
+.product-management {
+	background: #FBD6D5;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.leadership {
+	background: #E6D6D0; 
+	border-radius: 5px;
+	height: 20px;
+}
+.design {
+	background: #F8EED6; 
+	border-radius: 5px;
+	height: 20px; 
+}
+
+.tech {
+	background: #D6E4F7;
+	border-radius: 5px;
+	height: 20px; 
+}
+
+.hackathon {
+	background: #FAE0D4; 
+	border-radius: 5px;
+	height: 20px; 
+
+}
+.tag-long {
+	height: 40px;
+}
+
+.tag-pad {
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+.startup {
+	background: #D3E6E2; 
+	height: 20px; 
+	border-radius: 5px;
+
+}
+
+.personal-dev {
+	background: #F5D5E5; 
+	border-radius: 5px;
+}
+
+.content {
+	background: #DFD6F7; 
+	border-radius: 5px;
+}
+
+.projects-nav {
+	width: 100%x;
+	height: 60px; 
+	background-color: white; 
+	display: block;
+	
+}
+
+.container-case-study {
+	width: 80%;
+	/* max-width: 800px; */
+	margin: 2rem auto;
+	padding: 2rem 0;
+}
+
+.project-header {
+	width: 100%; 
+	
+}
+
+.BCM {
+	background-color: #144545;
+	padding: 10px;
+	color: white !important; 
+	
+}
+
+.BCM h1 {
+	color: white !important; 
+}
