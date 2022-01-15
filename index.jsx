@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom';
 
 function Guestbook() {
   return (
-    <>
+    <div styles={{ mr: 4 }}>
       <SignLegacy projectId="legacyxyz" />
+      <br />
       <SignersList projectId="legacyxyz" />
-    </>
+    </div>
   );
 }
 
