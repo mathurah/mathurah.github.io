@@ -1,14 +1,13 @@
 {
   "dependencies": {
-    "browserify": "^17.0.0",
-    "legacy-xyz": "^0.1.18"
+    "legacy-xyz": "^0.1.20"
+  },
+  "scripts": {
+    "start": "esbuild index.jsx --bundle --servedir=.",
+    "build": "esbuild index.jsx --bundle --outdir=dist"
   },
   "name": "mathurahravigulan.github.io",
   "version": "1.0.0",
-  "main": "like_button.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mathurahravigulan/mathurahravigulan.github.io.git"
@@ -20,5 +19,8 @@
     "url": "https://github.com/mathurahravigulan/mathurahravigulan.github.io/issues"
   },
   "homepage": "https://github.com/mathurahravigulan/mathurahravigulan.github.io#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.14.11"
+  }
 }
