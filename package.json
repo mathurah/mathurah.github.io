@@ -3,6 +3,8 @@
     "legacy-xyz": "^0.1.20"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "esbuild index.jsx --bundle --servedir=.",
     "build": "esbuild index.jsx --bundle --outdir=dist"
   },
