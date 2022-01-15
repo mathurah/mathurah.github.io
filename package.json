@@ -5,7 +5,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "esbuild index.jsx --bundle --servedir=.",
+    "start": "esbuild index.jsx --bundle --servedir=. --outdir=dist",
     "build": "esbuild index.jsx --bundle --outdir=dist"
   },
   "name": "mathurahravigulan.github.io",
