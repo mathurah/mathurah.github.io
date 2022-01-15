@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "legacy-xyz": "^0.1.18"
+  },
+  "name": "mathurahravigulan.github.io",
+  "version": "1.0.0",
+  "main": "like_button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathurahravigulan/mathurahravigulan.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathurahravigulan/mathurahravigulan.github.io/issues"
+  },
+  "homepage": "https://github.com/mathurahravigulan/mathurahravigulan.github.io#readme",
+  "description": ""
+}
